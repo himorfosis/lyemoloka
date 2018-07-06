@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Moloka</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Bookmark</string>
+    <string name="title_pengaturan">Setting</string>
+    <string name="spinner_title">Pilih bahan</string>
+
+    <string name="id">id</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_hitung_bahan">HitungBahan</string>
+
+
+</resources>

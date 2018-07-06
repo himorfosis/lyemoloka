@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/id"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/listbahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="2"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/orange">
+
+
+                <TextView
+                    android:id="@+id/pilihbahanrow"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Select material"
+                    android:textColor="@color/putih"
+                    android:textColorHint="@color/putih"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/orange"
+                    />
+
+                <TextView
+                    android:id="@+id/isinilairow"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spinner"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hitam">
+
+                    <EditText
+                        android:id="@+id/isiukuranrow"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:hint="weight"
+                        android:inputType="number"
+                        android:textColor="@color/hitam"
+                        android:textColorHint="@color/hitam"
+                        android:textSize="16dp"
+                        android:layout_weight="2"
+                        android:gravity="left"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:text="Gram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/hitam"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/hapus"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/delete"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

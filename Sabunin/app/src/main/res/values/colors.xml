@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#299CC4</color>
+    <color name="colorPrimaryDark">#1983A6</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="hitam">#212121</color>
+    <color name="putih">#ffffff</color>
+    <color name="hijau">#61ac7f</color>
+    <color name="second">#c2185b</color>
+    <color name="abu">#e9e9e9</color>
+    <color name="orange">#ff9f43</color>
+
+    <color name="hitamtransparant">#5e0e0e0e</color>
+    <color name="transparant">#00ffffff</color>
+    <color name="dropdown">#ffffff</color>
+
+</resources>
